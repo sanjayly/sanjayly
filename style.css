@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Loto", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.landing-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.landing {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: flex-startS;
+  text-transform: capitalize;
+  height: 100vh;
+  margin-left: 50px;
+  flex-direction: column;
+}
+.landing-head {
+  font-size: 3rem;
+}
+.landing p {
+  font-size: 1.5rem;
+}
+.links {
+  margin-top: 50px;
+}
+.navitem {
+  margin-right: 2rem;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+.navlink {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.about-left {
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  padding-right: 100px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 40px;
+  justify-content: center;
+}
+.photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  cursor: zoom-in;
+}
+.about-body {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.yellow {
+  color: yellow;
+}
+.about-left p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+.email-label {
+  margin-top: 10px;
+  display: block;
+}
